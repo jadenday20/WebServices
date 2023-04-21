@@ -1,6 +1,3 @@
-const jadenRoute = (req,res) => {
-    res.send("Jaden Day");
-};
 const elishaRoute = (req,res) => {
 res.send("Elisha Day");
 }
@@ -12,7 +9,6 @@ res.send("Kyler Day");
 }
 
 module.exports = {
-    jadenRoute,
     elishaRoute,
     dallinRoute,
     kylerRoute
