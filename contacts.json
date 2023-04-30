@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Elisha",
+        "lastName": "Day",
+        "email": "smithelisha262@gmail.com",
+        "favoriteColor": "purple",
+        "birthday": "07/21/2000"
+    },
+    "contact2": {
+        "firstName": "Dallin",
+        "lastName": "Day",
+        "email": "dallinday@outlook.com",
+        "favoriteColor": "pink",
+        "birthday": "09/17/1998"
+    },
+    "contact3": {
+        "firstName": "Kyler",
+        "lastName": "Day",
+        "email": "kwday@outlook.com",
+        "favoriteColor": "blue",
+        "birthday": "02/18/2002"
+    }
+}
