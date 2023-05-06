@@ -1,12 +1,12 @@
-###
+### GET ONE CONTACT
 GET http://localhost:8080/contacts/6452f758d75850fdbe3032f6 
 
-###
+### GET ONE CONTACT
 GET https://jadentest02.onrender.com/contacts/6452f758d75850fdbe3032f6
-###
+### GET ALL CONTACTS
 GET https://jadentest02.onrender.com/contacts/
 
-###
+### CREATE CONTACT
 POST http://localhost:8080/contacts/ HTTP/1.1
 Content-Type: application/json
 
@@ -18,10 +18,10 @@ Content-Type: application/json
     "birthday": "07/21/2000"
 }
 
-###
+### DELETE CONTACT
 DELETE http://localhost:8080/contacts/6456d8e0033ceddf1d2a1ad2 HTTP/1.1
 
-### PUT Contact
+### PUT CONTACT
 PUT http://localhost:8080/contacts/6456cf74c9110acf539c7478 HTTP/1.1
 Content-Type: application/json
 
