@@ -74,7 +74,6 @@ const updateContact = async (req, res) => {
 };
 
 const deleteContact = async (req, res) => {
-  console.log("hi " + req.params.id);
   const userId = new ObjectId(req.params.id);
   const response = await mongodb
     .getDb()
